@@ -23,7 +23,7 @@ const emitSourcemaps = process.env.EMIT_SOURCEMAPS === "true";
 
 // Vite config — https://vitejs.dev/config/
 export default defineConfig({
-  base: '/anallizator2.0/',
+  base: '/anallizator3.0/',
   
   build: {
     sourcemap: emitSourcemaps ? "inline" : false,
